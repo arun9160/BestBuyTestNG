@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="openurl in two browsers(failed)">
+    <classes>
+      <class name="mainTest.Multibrowsers">
+        <methods>
+          <include name="openurl"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mainTest.Multibrowsers -->
+    </classes>
+  </test> <!-- openurl in two browsers(failed) -->
+</suite> <!-- Failed suite [Suite] -->

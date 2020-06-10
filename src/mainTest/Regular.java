@@ -19,8 +19,7 @@ public class Regular {
 		//driver.findElement(By.xpath("//input[contains(@class, 'searchInput')]")).sendKeys("hello");
 		//driver.findElement(By.xpath("//input[contains(@placeholder, 'Find your perfect domain...')]")).sendKeys("hello");
 		driver.findElement(By.cssSelector("//input[class*='searchInput']")).sendKeys("hello");
-		driver.findElement(By.cssSelector("//input[class*='searchInput']")).sendKeys("hello");
-
+		
 	}
 
 }

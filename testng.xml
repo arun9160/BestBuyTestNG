@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Testbrowsertype">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <!--  <class name="testUtility.CrossBrowsing"/>
+  <class name="mainTest.Multibrowsers"/>-->
+  <class  name="Uploadfile.uploadfile"/>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
