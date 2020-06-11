@@ -5,15 +5,28 @@ public class ReverseString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str = "Hellow world";
+		// Using string builder
 		
-		StringBuilder str1 = new StringBuilder();
-		str1.append(str);
+		String str = "welcome to hyderabad";
 		
-		str1 = str1.reverse();
-		System.out.println(str1);
+		StringBuilder  stb = new StringBuilder();
+		stb.append(str);
+		stb = stb.reverse();
+		System.out.println(stb);
 		
-
+		
+		// Converting to char 
+		String str2 = new String("Welcome to hyderabad");
+		
+		char chars[] = str2.toCharArray();//here the string converts to char
+		for(int i = chars.length-1;i>=0;i--) {
+			
+			System.out.println(chars[i]);
+		}
+		
+		
+		
 	}
+	
 
 }
